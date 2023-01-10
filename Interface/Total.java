@@ -1,6 +1,8 @@
+package Interface;
+
 import java.util.Scanner;
 
-public class Retailtotal implements Retail {
+public class Total implements Retail {
 
     @Override
     public float getTotalcost(float tax, float cost, float number) {
@@ -18,7 +20,7 @@ public class Retailtotal implements Retail {
     }
 
     @Override
-    void getTotaldiscount(float Totalcost, float discount) {
+    public void getTotaldiscount(float Totalcost, float discount) {
         double Totaldiscount = (Totalcost * (discount / 100));
         System.out.println("Total discount " + Totaldiscount);
 
@@ -34,7 +36,7 @@ public class Retailtotal implements Retail {
         int clothes = Scan.nextInt();
         System.out.println("Enter the discount ");
         float discount = Scan.nextFloat();
-        Retailtotal r = new Retailtotal();
+        Total r = new Total();
         float cost1 = r.getTotalcost(7, 1000, cosmetic);
         System.out.println("Total cost of cosmetic " + cost1);
         float cost2 = r.getTotalcost(12, 5000, perfume);

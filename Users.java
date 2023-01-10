@@ -1,4 +1,3 @@
-package dailycode;
 
 import java.util.Scanner;
 
@@ -48,7 +47,7 @@ public class Users {
         System.out.println("enter position");
         String position = sc.next();
         Users u = new Users(EmpName, userid, company, place, position);
-        User u1 = new User();
+
         u.show();
     }
 }

@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Student",
+            "request": "launch",
+            "mainClass": "Student",
+            "projectName": "Java_5313ef21"
+        },
+        {
+            "type": "java",
+            "name": "Launch Student",
+            "request": "launch",
+            "mainClass": "Interface.Encapsulation.arrayandstring.Student",
+            "projectName": "Java_5313ef21"
+        },
+        {
+            "type": "java",
+            "name": "Launch Users",
+            "request": "launch",
+            "mainClass": "Users",
+            "projectName": "Java_5313ef21"
+        },
+        {
+            "type": "java",
+            "name": "Launch Total",
+            "request": "launch",
+            "mainClass": "Interface.Total",
+            "projectName": "Java_5313ef21"
+        },
+        {
+            "type": "java",
+            "name": "Launch Login",
+            "request": "launch",
+            "mainClass": "Interface.Encapsulation.Login",
+            "projectName": "Java_5313ef21"
+        },
+        {
+            "type": "java",
             "name": "Launch Retailtotal",
             "request": "launch",
             "mainClass": "Retailtotal",

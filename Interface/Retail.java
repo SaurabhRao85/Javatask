@@ -1,5 +1,6 @@
-package interface;
-public class Retail {
+package Interface;
+
+public interface Retail {
 
     float getTotalcost(float tax, float cost, float number);
 
